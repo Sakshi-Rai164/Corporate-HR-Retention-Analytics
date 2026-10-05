@@ -1,26 +1,36 @@
-# HR Analytics: Employee Retention & Attrition Modeling
+# Corporate HR Retention & Turnover Analytics
 
-## Overview
-This project analyzes HR records for **1,470 employees** to uncover the root causes of employee turnover. The goal is to provide data-driven recommendations to HR leadership for improving retention, optimizing compensation structures, and enhancing workplace satisfaction in a post-pandemic corporate environment.
+## 📌 Project Overview
+Employee turnover is a critical challenge for modern organizations. This project analyzes a comprehensive HR dataset of 1,470 employees to uncover the hidden patterns and root causes behind employee attrition. The objective is to transition from reactive HR operations to proactive, data-driven retention strategies.
 
-## Project Objectives
-* Clean and transform raw HR data to establish a reliable foundation for workforce analytics.
-* Identify key demographic, financial, and role-based drivers contributing to the company's **16.12% attrition rate**.
-* Develop actionable retention strategies targeting high-risk departments (e.g., Research & Development and Sales).
+## 🛠️ Tech Stack & Tools
+* **Data Processing & Analytics:** Advanced Excel (Pivot Tables, KPIs)
+* **Database querying:** MySQL (Aggregations, Conditional Statements)
+* **Data Visualization:** Interactive Dashboard reporting
+* **Documentation:** Business Analyst (BA) Style Executive Summary
 
-## Key Insights & Discoveries
-1. **Overall Attrition Metric:** Out of 1,470 total employees, 237 resigned, resulting in an overall turnover rate of **16.12%**.
-2. **Departmental Flight Risk:** The **Research & Development** department experienced the highest total volume of exits (133 employees), followed closely by the **Sales** department (92 exits). Human Resources remained highly stable.
-3. **Compensation Correlation:** Employees who left the company had significantly lower monthly incomes and received fewer stock options compared to retained employees. The average monthly salary across the company is roughly $6,503.
-4. **Career Stagnation:** A major driver for attrition is the lack of career mobility. A high percentage of exits occurred among employees who had spent extended periods in their current roles without a recent promotion.
-5. **Commute and Burnout:** Employees reporting frequent business travel and longer commute distances (from home to office) showed a disproportionately higher likelihood of resigning.
+## 📊 Key Discoveries & Insights
+Based on the SQL queries and dashboard analysis, here are the primary drivers of attrition:
 
-## Strategic HR Recommendations
-* **Targeted Salary Corrections:** Implement immediate market-adjustment salary reviews for the R&D and Sales departments to prevent the loss of specialized talent to competitors.
-* **Defined Career Pathways:** Introduce fast-track promotion cycles and internal mobility programs for employees who have remained in the same role for over 3 years.
-* **Flexible Work Policies:** Offer hybrid remote-work options or commute allowances for employees traveling long distances, directly addressing commute-related burnout.
-* **Enhanced Onboarding & Engagement:** Since a large cluster of resignations occurs early in the employee lifecycle, revamp the first-year onboarding and mentorship programs to build stronger early-stage loyalty.
+* **Overall Baseline:** The company suffers from an overall turnover rate of **16.1%** (237 exits out of 1,470 employees).
+* **High-Risk Departments:** **Sales (20.6%)** and **Human Resources (19.1%)** experience significantly higher attrition compared to Research & Development (13.8%).
+* **Most Vulnerable Roles:** **Sales Representatives** face a critical attrition rate of **39.8%**, followed by **Laboratory Technicians (23.9%)**. Senior leadership roles remain highly stable.
+* **The "Early Flight" Risk:** Employees under the age of 25 have a massive **39.2%** turnover rate. Furthermore, the highest volume of exits occurs within the first 0-3 years of tenure.
+
+![HR Attrition Dashboard](hr_attrition_dashboard.png)
+
+## 💡 Strategic Recommendations
+To combat the high turnover rate, the following actionable strategies are proposed:
+1. **Targeted Sales Intervention:** Conduct immediate workload and compensation reviews for Sales Representatives.
+2. **Revamp Early Tenure Experience:** Introduce robust mentorship and structured onboarding programs specifically designed for the first 90 days to 1 year.
+3. **Career Mapping for Youth:** Provide clear, visible internal mobility and promotion pathways for employees under 25 to improve long-term engagement.
+
+## 📁 Repository Structure
+* `HR_Employee_Retention_Data.csv`: The core dataset used for analysis.
+* `Turnover_Analysis_Queries.sql`: Contains the MySQL queries used to calculate department, role, and age-band attrition rates.
+* `Executive_Summary_Insights.md`: A detailed Business Analyst report covering deep-dive insights and strategic HR recommendations.
 
 ---
-**Data Analysis by:** [TUMHARA NAAM YAHAN LIKHO]
-**Tools Used:** Data Cleaning, Exploratory Data Analysis, KPI Dashboards
+**Author:** Sakshi Rai  
+**Role:** Data Analyst  
+**Focus:** Data Analytics | SQL | Business Intelligence
