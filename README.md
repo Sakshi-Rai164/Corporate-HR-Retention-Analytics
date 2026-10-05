@@ -31,6 +31,6 @@ To combat the high turnover rate, the following actionable strategies are propos
 * `Executive_Summary_Insights.md`: A detailed Business Analyst report covering deep-dive insights and strategic HR recommendations.
 
 ---
-**Author:** Sakshi Rai  
+**Author:** Sakshi Rai 
 **Role:** Data Analyst  
 **Focus:** Data Analytics | SQL | Business Intelligence
