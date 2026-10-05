@@ -17,7 +17,18 @@ Based on the SQL queries and dashboard analysis, here are the primary drivers of
 * **Most Vulnerable Roles:** **Sales Representatives** face a critical attrition rate of **39.8%**, followed by **Laboratory Technicians (23.9%)**. Senior leadership roles remain highly stable.
 * **The "Early Flight" Risk:** Employees under the age of 25 have a massive **39.2%** turnover rate. Furthermore, the highest volume of exits occurs within the first 0-3 years of tenure.
 
+
 ![HR Attrition Dashboard](hr_attrition_dashboard.png)
+
+### Departmental Flight Risk
+![Department Attrition](dept_attrition.png)
+
+### High-Risk Job Roles
+![Job Role Attrition](role_attrition.png)
+
+### The "Early Flight" Risk (Age & Tenure)
+![Age Band Attrition](age_attrition.png)
+![Tenure Attrition](tenure_attrition.png)
 
 ## 💡 Strategic Recommendations
 To combat the high turnover rate, the following actionable strategies are proposed:
