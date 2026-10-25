@@ -1,7 +1,7 @@
 # Corporate HR Retention & Turnover Analytics
 
 ## 📌 Project Overview 
-Employee turnover is a critical challenge for modern organizations. This project analyzes a comprehensive HR dataset of 1,470 employees to uncover the hidden patterns and root causes behind employee attrition. The objective is to transition from reactive HR operations to proactive, data-driven retention strategies.
+Employee turnover is a critical challenge for modern organizations. This project analyzes a comprehensive HR dataset of 1,470 employees to uncover the hidden patterns and root causes behind employee attrition. The objective is to transition from reactive HR operations to proactive, data-driven retention strategies
 
 ## 🛠️ Tech Stack & Tools
 * **Data Processing & Analytics:** Advanced Excel (Pivot Tables, KPIs)
